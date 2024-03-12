@@ -11,19 +11,3 @@ person2.print();
 Person.printCount();
 }
 }
-class Person{
-public static int count = 0;
-public String firstName;
-public String lastName;
-public int age;
-public double height, weight;
-
-// コンストラクタを定義しインスタンスフィールドに値をセット
-Person(String firstName, int age, double height, double weight) {
-Person.count++;
-
-    this.firstName = firstName;
-    this.age = age;
-    this.height = height;
-    this.weight = weight;
-}
